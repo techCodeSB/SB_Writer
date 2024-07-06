@@ -12,7 +12,7 @@ https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js
 - `fadeEffect`
 - `typewriter2`
 
-> Using `setTime` function you can set time (miliseconds) in your animation.
+> Using `setTime` function you can set time (millisecond) in your animation.
 
 ### Examples:
 ```html
