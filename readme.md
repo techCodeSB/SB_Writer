@@ -3,7 +3,9 @@
 ### SB_Writer is a simple typewriter animation library using vanila javascript
 
 ### CDN:
-> https://jsdeliver/sb_writer.min.js
+```bash
+https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js
+```
 
 ### Typeof animation:
 - `typewriter`
