@@ -22,7 +22,7 @@ https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js
     </div>
   </body>
 
-  <script src="CDN-here"></script>
+  <script src="https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js"></script>
   <script>
     const word = document.querySelector('#hadding');
     const type = new SBWriter(word);
@@ -38,7 +38,7 @@ https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js
     </div>
   </body>
 
-  <script src="CDN-here"></script>
+  <script src="https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js"></script>
   <script>
     const word = document.querySelector('#title');
     const underscore = document.querySelector('#underscore');
