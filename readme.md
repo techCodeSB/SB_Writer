@@ -17,9 +17,7 @@ https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js
 ### Examples:
 ```html
   </body>
-    <div style="display: flex;gap: 10px;">
       <h1 id="hadding">hello world</h1>
-    </div>
   </body>
 
   <script src="https://cdn.jsdelivr.net/gh/techCodeSB/SB_Writer@main/sbwriter.min.js"></script>
