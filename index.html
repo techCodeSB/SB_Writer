@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      width: 100%;
+      display: grid;
+      place-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: flex;gap: 10px;">
+    <h1 id="sbType">hello world</h1><span id="underscore" style="font-size: 30px; font-weight: bold;">_</span>
+  </div>
+</body>
+
+</html>
+
+<script src="./sbwriter.min.js"></script>
+<script>
+  'use strict'
+
+  const word = document.querySelector('#sbType');
+  const underscore = document.querySelector('#underscore');
+
+  const type2 = new SBWriter(underscore);
+  type2.setTime(1600).fadeEffect();
+
+  const type = new SBWriter(word);
+  type.setTime(500).typewriter();
+</script>
